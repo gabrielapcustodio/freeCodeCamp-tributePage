@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+    background-color: #dddddd;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2349496d' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  body {
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 4px;
+    background-color: #b0b3c9;
+  }
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #49496d;
+    text-align: center;
+    padding-top: 3.5vw;
+  }
+  hr {
+    margin: none;
+    padding: none;
+  }
+  ul {
+    list-style: none;
+  }
+  footer {
+    padding: 1.5vw;
+  }
+  #content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    border-left: 50px solid #b0b3c9;
+    border-right: 50px solid #b0b3c9;
+  }
+  #image {
+    display:block;
+    margin:0 auto;
+    max-width: 100%;
+    padding-top: 2vw;
+  }
+  #image2 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 2.5vw;
+    margin: 0;
+    border-radius: 3px;
+    background-color: #dddddd;
+  }
+  #img-caption {
+    font-family: Montserrat, sans-serif;
+    font-size: 1vw;
+    font-style: italic;
+    text-align: center;
+    padding: 1vw;
+    margin-top: 2%;
+  }
+  #img-caption2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1vw;
+    font-style: italic;
+    text-align: center;
+    padding: 1vw;
+    margin-top: 1%;
+    margin-bottom: -5%
+  }
+  #text {
+    font-family: Montserrat, sans-serif;;
+    margin: 3vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #more-info {
+    font-family: Montserrat, sans-serif;;
+    font-size: 1.2vw;
+    text-align: center;
+  }
+  #tribute-link {
+    color: black;
+  }
+  #tribute-link:hover {
+    color: #49496d;
+  }
+  .sep {
+    padding: 0;
+  }
+  #list-title{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 0;
+  }
+  .year {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+    padding-bottom: none;
+    padding-top: 2vw;
+    margin: none;
+    text-align: center;
+  }
+  .fact {
+    font-size: 1.2vw;
+    text-align: center;
+    margin-bottom: -2%;
+  }
+.sep {
+    background: transparent;
+    border-bottom: 0.1vw dotted #dddddd;
+    width: 25%; margin: 0 auto;
+    
+    &:before {
+        top: 0;
+        left: 0;
+        padding-right: 1em;
+    }
+  }
